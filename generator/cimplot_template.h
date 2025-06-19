@@ -11,13 +11,13 @@ typedef struct ImPlotPoint ImPlotPoint;
 struct ImPlotPoint
 {
     double X, Y;
-}
+};
 
 typedef struct ImPlotRange ImPlotRange;
 struct ImPlotRange
 {
     double Min, Max;
-}
+};
 
 #include "imgui_structs.h"
 #else
